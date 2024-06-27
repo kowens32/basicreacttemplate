@@ -1,0 +1,23 @@
+/* src/components/Dashboard.css */
+
+.widget {
+  padding: 16px;
+  color: #fff;
+}
+
+.widget-dashboard {
+  background-color: #3f51b5;
+}
+
+.widget-1 {
+  background-color: #ff5722;
+}
+
+.widget-2 {
+  background-color: #009688;
+}
+
+.widget-3 {
+  background-color: #cddc39;
+  color: #000;
+}

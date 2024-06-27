@@ -10,6 +10,15 @@ const theme = createTheme({
     secondary: {
       main: '#dc004e',
     },
+    widget1: {
+      main: '#ff5722',
+    },
+    widget2: {
+      main: '#009688',
+    },
+    widget3: {
+      main: '#cddc39',
+    },
   },
 });
 

@@ -1,14 +1,19 @@
 // src/App.js
 
 import React from 'react';
-import { Container } from '@mui/material';
+import { Container, CssBaseline } from '@mui/material';
+import { ThemeProvider } from '@mui/material/styles';
 import Dashboard from './components/Dashboard';
+import theme from './theme';
 
 function App() {
   return (
-    <Container maxWidth="lg">
-      <Dashboard />
-    </Container>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Container maxWidth="lg">
+        <Dashboard />
+      </Container>
+    </ThemeProvider>
   );
 }
 

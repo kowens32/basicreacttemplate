@@ -1,19 +1,14 @@
 // src/App.js
 
 import React from 'react';
-import { Container, CssBaseline } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-import Dashboard from './components/Dashboard';
-import theme from './theme';
+import Landing from './components/Landing';
+import './App.css';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Container maxWidth="lg">
-        <Dashboard />
-      </Container>
-    </ThemeProvider>
+    <div className="App">
+      <Landing />
+    </div>
   );
 }
 
